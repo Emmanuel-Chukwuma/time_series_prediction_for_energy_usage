@@ -1,8 +1,8 @@
 # Time Series Forecasting with XGBoost
 
-This repository contains a comprehensive pipeline for time series forecasting using the **XGBoost** machine learning model. The workflow covers data preprocessing, feature engineering, model training, and evaluation, making it suitable for predictive analytics in various domains.
+This repository contains a comprehensive pipeline for time series forecasting hourly energy usage using the **XGBoost** machine learning model. The workflow covers data preprocessing, feature engineering, model training, and evaluation, making it suitable for predictive analytics.
 
-## Features
+## Contents
 
 - **Data Splitting**: Train/Test split for model validation.
 - **Feature Engineering**: Creation and transformation of features for time series prediction.
@@ -15,10 +15,8 @@ This repository contains a comprehensive pipeline for time series forecasting us
 
 ## Repository Structure
 
-- `notebook.ipynb`: Main Jupyter Notebook with the complete pipeline.
-- `data/`: Folder for raw and processed datasets.
-- `models/`: Directory for saving trained models.
-- `results/`: Folder containing evaluation metrics and visualizations.
+- `archive/PJME_hourly.csv`: Folder for raw and processed datasets.
+
 
 ## Installation
 
@@ -48,7 +46,7 @@ This repository contains a comprehensive pipeline for time series forecasting us
 
 1. Open the notebook:
    ```bash
-   jupyter notebook copy.ipynb
+   jupyter notebook time series.ipynb https://github.com/Emmanuel-Chukwuma/time_series_prediction_for_energy_usage/blob/main/time%20series.ipynb
    ```
 
 2. Follow the workflow outlined in the notebook, which includes:
@@ -63,21 +61,3 @@ The model is evaluated using metrics such as:
 - **Mean Absolute Error (MAE)**
 - **Mean Squared Error (MSE)**
 - **Root Mean Squared Error (RMSE)**
-
-## Contributing
-
-Contributions are welcome! Feel free to submit a pull request or open an issue for discussion.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-
-- **XGBoost**: An efficient and scalable implementation of gradient boosting.
-- The time series dataset used in this project.
-
----
-
-Feel free to reach out if you have any questions or feedback about the repository.
-
